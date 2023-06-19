@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/variant">
+
+
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:hint=""
+        android:layout_marginTop="400dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="490dp"
+        android:inputType="textPersonName"/>
+
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="570dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:layout_marginTop="655dp"
+        android:layout_marginLeft="180dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/backto"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="selectedCount">selectedCount</string>
+    <string-array name="spinner_data">
+            <item>All</item>
+            <item>Dress</item>
+            <item>Tshirt</item>
+            <item>Shoes</item>
+        </string-array>
+
+</resources>
